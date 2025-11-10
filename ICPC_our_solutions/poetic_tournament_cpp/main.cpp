@@ -7,7 +7,7 @@ bool comp(const int& a, const int& b) {
     std::cout.flush();
     int result;
     std::cin >> result;
-    return result == b;
+    return result == a;
 }
 
 int main() {
